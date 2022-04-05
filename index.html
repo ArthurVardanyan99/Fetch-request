@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script defer src="app.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>User Managment</h1>
+        <button id="add"> Add New User </button>
+    </header>
+    <main>
+        <section id="newTab" >
+            <input type="text" id="nName" placeholder="Name">
+            <input type="text" id="nEmail" placeholder="Email">
+            <input type="text" id="nCity" placeholder="City">
+            <input type="text" id="nPhone" placeholder="Phone">
+            <button id="save">Save</button>
+            <button id="cancel">Cancel</button>
+          </section> 
+        <button id="tableFill">Fill The Table</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>City</th>
+                    <th>Phone</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="dataTable">
+            </tbody>
+        </table>
+        <button id="reset">Reset</button>
+    </main>
+</body>
+</html>

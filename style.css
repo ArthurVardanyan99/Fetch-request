@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(107, 164, 218);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+h1 {
+    color: white;
+}
+
+#add {
+    padding: 8px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#add:hover {
+
+    background-color: rgb(79, 146, 209);
+    color: white;
+
+}
+#reset{
+    padding: 8px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    background-color: rgb(127, 182, 233);
+    cursor: pointer;
+    margin-top: 30px;
+    visibility: hidden;
+}
+#tableFill{
+    padding: 8px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    background-color: rgb(127, 182, 233);
+    cursor: pointer;
+}
+
+#tableFill:hover, #reset:hover {
+
+    background-color: rgb(79, 146, 209);
+    color: white;
+
+}
+main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+
+}
+
+
+table, thead {
+    width: 75%;
+    border: 5px solid rgb(0, 0, 0);
+    line-height: 25px;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 20px;
+}
+
+tr,td {
+
+    border: 3px solid gray;
+
+}
+
+.buttonDel {
+
+    padding: 1px 5px;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgba(236, 90, 71, 0.589);
+    cursor: pointer;
+
+}
+
+.buttonEdit {
+
+    padding: 1px 5px;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgba(44, 212, 80, 0.664);
+    cursor: pointer;
+
+}
+
+.buttonDel:hover{
+
+    background-color: rgb(214, 17, 11);
+    color: white;
+
+}
+
+.buttonEdit:hover {
+
+    background-color: rgb(26, 128, 13);
+    color: white;
+
+}
+
+#newTab {
+   visibility: hidden;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(30, 170, 37, 0.829);
+    border-radius: 50px;
+    position: absolute;
+    top: 100px;
+
+}
+
+#newTab * {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 180px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#save,#cancel  {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#save:hover, #cancel:hover {
+
+    background-color: rgb(52, 150, 14);
+    color: white;
+
+}
